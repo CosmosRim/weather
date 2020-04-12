@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d321a3b-e4ac-4db8-b8e6-c0fb240c46fe" name="Default Changelist" comment="" />
+    <list default="true" id="5d321a3b-e4ac-4db8-b8e6-c0fb240c46fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../00_bin/weather.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../00_bin/weather.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_weatherInfo/Nanjing20200412.json" beforeDir="false" afterPath="$PROJECT_DIR$/../02_weatherInfo/Nanjing20200412.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1aQRr8sArGV564yuLf7ulx0Aj1R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />

@@ -7,7 +7,7 @@ declare -r city=`grep -a1 '\[city\]' ${cfgpw}/weatherInfo.cfg | tail -1`
 declare -r language='zh-CN'
 declare -r unit='m'
 declare -r dateOfNow=`date '+%Y%m%d'`
-declare -r OS=`grep -a1 '\[os\]' ${cfgpw}/weatherInfo.cfg | tail -1`
+declare -r os=`grep -a1 '\[os\]' ${cfgpw}/weatherInfo.cfg | tail -1`
 declare -r token=`grep -a1 '\[token2\]' ${cfgpw}/weatherInfo.cfg | tail -1`
 declare -r secret=`grep -a1 '\[secret2\]' ${cfgpw}/weatherInfo.cfg | tail -1`
 #declare -r timestamp=$((`date '+%s'`*1000+`date '+%N'`/1000000))
@@ -16,7 +16,7 @@ declare -r secret=`grep -a1 '\[secret2\]' ${cfgpw}/weatherInfo.cfg | tail -1`
 #declare -r strAftbase64=$(base64 <<< ${strAftSign})
 #declare -r strAftUrl=`echo -n ${strAftbase64} | xxd -plain | tr -d "\n" | sed 's/\(..\)/%\1/g'`
 #declare -r tokenTail="&timestamp=${timestamp}&sign=${strAftUrl}"
-declare -r tokenTail=`./dingTalkSign_${OS} ${secret}`
+declare -r tokenTail=`./dingTalkSign_${os} ${secret}`
 
 function get_weather_info() {
     if [[ `find . -type f -name ${city}${dateOfNow}.json` ]];then
